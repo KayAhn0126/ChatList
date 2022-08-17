@@ -2,6 +2,10 @@
 
 - UICollectionView with Storyboard!
 
+|            작동 화면             |
+|:--------------------------------:|
+| ![](https://i.imgur.com/GjAcmrC.gif) |
+
 
 ## 🍎 ChatListCollectionViewCell 클래스 내 awakeFromNib의 역할
 
