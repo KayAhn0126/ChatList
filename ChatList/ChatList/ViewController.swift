@@ -17,9 +17,9 @@ class ViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         
-        chatList = chatList.sorted(by: { chat1, chat2 in
+        chatList = chatList.sorted { chat1, chat2 in
             return chat1.date > chat2.date
-        })
+        }
     }
 }
 
