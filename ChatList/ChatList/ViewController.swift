@@ -37,8 +37,6 @@ extension ViewController: UICollectionViewDataSource {
         cell.configure(chat)
         return cell
     }
-    
-    
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
