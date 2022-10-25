@@ -15,7 +15,7 @@
 ```swift
 thumbnailImageView.layer.cornerRadius = 10
 ```
-- 이 부분은 좀 더 공부해야 한다!
+- [CALayer 관련 자료](https://github.com/KayAhn0126/iOS-Study/tree/main/UI/CALayer)
 
 ## 🍎 날짜를 "yyyy-MM-dd" 형식에서 "M/d" 형식으로 변환
 
@@ -58,7 +58,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
 | Automatic과 None의 차이 | ![](https://i.imgur.com/J1aRNuR.png) | ![](https://i.imgur.com/VfTsT2S.png) |
 
 
-- 공식문서에서는 원하는 답변을 찾을 수 없었고 StackOverFlow의 한 유저는 ***xcode 11 이후 부터 UICollectionViewDelegateFlowLayout의 size 결정 메서드가 제대로 동작하려면 Estimate Size 속성을 None으로 바꿔줘야 한다***고 나와있다. [무려 411 따봉을 받은 출처.](https://stackoverflow.com/questions/38028013/how-to-set-uicollectionviewcell-width-and-height-programmatically)
+- 공식문서에서는 원하는 답변을 찾을 수 없었고 StackOverFlow의 한 유저는 ***xcode 11 이후 부터 UICollectionViewDelegateFlowLayout의 size 결정 메서드가 제대로 동작하려면 Estimate Size 속성을 None으로 바꿔줘야 한다***고 나와있다. [StackOverflow 출처](https://stackoverflow.com/questions/38028013/how-to-set-uicollectionviewcell-width-and-height-programmatically)
 
 
 
